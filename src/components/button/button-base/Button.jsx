@@ -6,8 +6,7 @@ const types = ['button', 'submit'];
 
 const defaultClassNames = 'font-bold py-2 px-8 rounded-full focus:outline-none focus:shadow-outline';
 
-const alternativeClassNames =
-    'py-2 px-8 text-white border border-white rounded-full focus:outline-none focus:shadow-outline';
+const alternativeClassNames = 'py-2 px-8 text-white border border-white rounded-full focus:outline-none focus:shadow-outline';
 
 
 const Button = ({ className, children, onClick, primaryBackground, textVariant, type, variant }) => {
