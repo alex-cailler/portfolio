@@ -4,16 +4,9 @@ import classNames from 'classnames';
 
 const types = ['button', 'submit'];
 
-const defaultClassNames = 'font-bold py-2 px-8 rounded-full focus:outline-none focus:shadow-outline';
-
-const alternativeClassNames = 'py-2 px-8 text-white border border-white rounded-full focus:outline-none focus:shadow-outline';
-
-
-const Button = ({ className, children, onClick, primaryBackground, textVariant, type, variant }) => {
+const Button = ({ className, children, onClick, type }) => {
     const classes = classNames(
-        textVariant,
-        `bg-${variant}`,
-        primaryBackground ? alternativeClassNames : defaultClassNames,
+        'bg-gray-800 text-white focus:outline-none p-3 pl-6 pr-6 rounded-large shadow-custom',
         className,
     );
     return (
@@ -28,19 +21,13 @@ Button.propTypes = {
     className: PropTypes.string,
     children: PropTypes.node.isRequired,
     onClick: PropTypes.func,
-    primaryBackground: PropTypes.bool,
     type: PropTypes.oneOf(types),
-    textVariant: PropTypes.string,
-    variant: PropTypes.string,
 };
 
 Button.defaultProps = {
     className: null,
     onClick: () => {},
-    primaryBackground: false,
-    textVariant: 'text-white',
     type: 'button',
-    variant: 'primary-500',
 };
 
 export default Button;

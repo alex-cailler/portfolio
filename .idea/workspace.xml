@@ -2,18 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4029eb6c-7deb-4d59-9fa3-7b2114f628fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.storybook/layout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/button/card/card-technologie/CardTechnologie.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/button/card/card-technologie/CardTechnologie.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/button/card/card-thematique/CardThematique.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/button/card/card-thematique/CardThematique.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/button-base/Button.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/button-base/Button.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/button-base/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/button-base/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/card/card-technologie/CardTechnologie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card/card-technologie/CardTechnologie.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/card/card-technologie/CardTechnologie.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card/card-technologie/CardTechnologie.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/card/card-thematique/CardThematique.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card/card-thematique/CardThematique.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/card/card-thematique/CardThematique.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card/card-thematique/CardThematique.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/HomePage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/tailwind.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +62,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/button/card/card-thematique" />
       <recent name="$PROJECT_DIR$/src/components/button/card/card-technologie" />
       <recent name="$PROJECT_DIR$/src/pages/ProjectPage" />
       <recent name="$PROJECT_DIR$/src/pages/GaleryPage" />
-      <recent name="$PROJECT_DIR$/src/pages/HomePage" />
     </key>
   </component>
   <component name="RunManager" selected="npm.build:css">
@@ -114,7 +122,8 @@
       <option name="presentableId" value="Default" />
       <updated>1598039504548</updated>
       <workItem from="1598039506156" duration="4466000" />
-      <workItem from="1598118397592" duration="4948000" />
+      <workItem from="1598118397592" duration="5783000" />
+      <workItem from="1598186761076" duration="10551000" />
     </task>
     <servers />
   </component>
@@ -126,25 +135,33 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="496" y="225" key="#ESLint/0.0.1792.1120@0.0.1792.1120" timestamp="1598042539318" />
-    <state width="1771" height="299" key="GridCell.Tab.0.bottom" timestamp="1598127095233">
+    <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598174184285">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1771" height="299" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1598127095233" />
+    <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-774.-1440.3440.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1598174184285" />
+    <state width="1771" height="299" key="GridCell.Tab.0.bottom" timestamp="1598212508927">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1771" height="299" key="GridCell.Tab.0.bottom/-774.-1440.3440.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1598174214704" />
+    <state width="1771" height="299" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1598212508927" />
     <state width="1771" height="299" key="GridCell.Tab.0.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1598078126632" />
-    <state width="1771" height="299" key="GridCell.Tab.0.center" timestamp="1598127095231">
+    <state width="1771" height="299" key="GridCell.Tab.0.center" timestamp="1598212508927">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1771" height="299" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1598127095231" />
+    <state width="1771" height="299" key="GridCell.Tab.0.center/-774.-1440.3440.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1598174214703" />
+    <state width="1771" height="299" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1598212508927" />
     <state width="1771" height="299" key="GridCell.Tab.0.center/0.23.1792.1028@0.23.1792.1028" timestamp="1598078126631" />
-    <state width="1771" height="299" key="GridCell.Tab.0.left" timestamp="1598127095230">
+    <state width="1771" height="299" key="GridCell.Tab.0.left" timestamp="1598212508926">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1771" height="299" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1598127095230" />
+    <state width="1771" height="299" key="GridCell.Tab.0.left/-774.-1440.3440.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1598174214702" />
+    <state width="1771" height="299" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1598212508926" />
     <state width="1771" height="299" key="GridCell.Tab.0.left/0.23.1792.1028@0.23.1792.1028" timestamp="1598078126631" />
-    <state width="1771" height="299" key="GridCell.Tab.0.right" timestamp="1598127095232">
+    <state width="1771" height="299" key="GridCell.Tab.0.right" timestamp="1598212508927">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1771" height="299" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1598127095232" />
+    <state width="1771" height="299" key="GridCell.Tab.0.right/-774.-1440.3440.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1598174214704" />
+    <state width="1771" height="299" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1598212508927" />
     <state width="1771" height="299" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1598078126632" />
   </component>
 </project>
