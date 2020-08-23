@@ -11,7 +11,7 @@ export default {
 };
 
 export const Component = () => (
-    <div className="p-8">
+    <div className="p-8 rounded-full">
         <Button>button</Button>
     </div>
 );

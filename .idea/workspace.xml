@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4029eb6c-7deb-4d59-9fa3-7b2114f628fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.storybook/layout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/card/card-technologie/CardTechnologie.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/card/card-technologie/CardTechnologie.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/card/card-thematique/CardThematique.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/card/card-thematique/CardThematique.stories.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/button-base/Button.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/button-base/Button.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +54,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/button/card/card-thematique" />
+      <recent name="$PROJECT_DIR$/src/components/button/card/card-technologie" />
       <recent name="$PROJECT_DIR$/src/pages/ProjectPage" />
       <recent name="$PROJECT_DIR$/src/pages/GaleryPage" />
       <recent name="$PROJECT_DIR$/src/pages/HomePage" />
@@ -102,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598039504548</updated>
       <workItem from="1598039506156" duration="4466000" />
-      <workItem from="1598118397592" duration="2934000" />
+      <workItem from="1598118397592" duration="4948000" />
     </task>
     <servers />
   </component>

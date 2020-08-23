@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './scss/tailwind.scss';
+import './scss/main.scss';
 import Router from "./router/Router";
 
 function App() {
