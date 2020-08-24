@@ -24,9 +24,9 @@ const HomePage = () => {
             <div>
                 <h1 className="text-4xl leading-none font-semibold">Les technologie avec <br /> lequel je travail </h1>
                 <p className="pt-5 text-gray-600">Pour être un bon developpeur, il faut avoir des compétence dans tout les domaine</p>
-                <div className="grid overflow-auto grid-cols-4 gap-4">
+                <div className="flex flex-no-wrap overflow-x-auto">
                     {technologies.map( (item,key) => {
-                        return (<div key={key} className="rounded-large bg-yellow-200 h-56 p-5">{item.title}</div>)
+                        return (<div key={key} className="rounded-large w-32 bg-yellow-200 h-56 p-5">{item.title}</div>)
                     })}
                 </div>
             </div>
@@ -34,12 +34,12 @@ const HomePage = () => {
                 <h1 className="text-4xl leading-none font-semibold">Qui suis je ?</h1>
                 <p className="pt-5 text-gray-600">Apprenez qui je suis grace aux deux sections ci dessous.</p>
                 <div className="flex flex-wrap">
-                    <CardThematique className="w-2/4 h-400 p-3"
+                    <CardThematique className="md:w-2/4 w-full h-400 p-3"
                                     bgImage="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
                                     title="Mes Travaux"
                                     description="J’effectue de nombreux projet dans différent domaine si bien frontend que backend"
                                     btnTitle="Mes travaux" />
-                    <CardThematique className="w-2/4 h-400 p-3"
+                    <CardThematique className="md:w-2/4 w-full h-400 p-3"
                                     bgImage="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
                                     title="Mes Travaux"
                                     description="J’effectue de nombreux projet dans différent domaine si bien frontend que backend"

@@ -1,9 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import {types} from "../../button/button-base/Button";
-
-// const types = ['extend']
 
 const CardThematique = ({className, children, type, bgImage, title, description, btnTitle}) =>  {
 
