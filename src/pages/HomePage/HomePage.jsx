@@ -1,4 +1,5 @@
 import React from 'react';
+import classNames from 'classnames';
 import {Button} from "../../components/button";
 import { CardThematique } from "../../components/card";
 import { technologies } from "../../constants/data";
@@ -25,9 +26,13 @@ const HomePage = () => {
                 <h1 className="text-4xl leading-none font-semibold">Les technologie avec <br /> lequel je travail </h1>
                 <p className="pt-5 text-gray-600">Pour être un bon developpeur, il faut avoir des compétence dans tout les domaine</p>
                 <div className="flex flex-no-wrap overflow-x-auto">
-                    {technologies.map( (item,key) => {
-                        return (<div key={key} className="rounded-large w-32 bg-yellow-200 h-56 p-5">{item.title}</div>)
-                    })}
+                    {technologies.map( (item,index) => (
+                      <div
+                        key={index}
+                        className={classNames('rounded-large w-32 bg-yellow-200 h-56 p-5 flex-shrink-0', {'mr-3': index < technologies.length - 1})}>
+                        {item.title}
+                      </div>
+                    ))}
                 </div>
             </div>
             <div className="mt-32 mb-32">
