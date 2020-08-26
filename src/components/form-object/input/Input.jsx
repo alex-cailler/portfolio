@@ -10,7 +10,7 @@ const Input = ({ placeholder, className, type, value }) => {
         className
     );
     return (
-        <input type={type} className={classes} placeholder={placeholder} value={value}/>
+        <input type={type} className={classes} placeholder={placeholder} value={value} />
     );
 };
 

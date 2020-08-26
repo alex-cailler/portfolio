@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-const Textarea = ({className, placeholder, onChange, value, cols}) => {
+const Textarea = ({className, placeholder, onChange, value, rows}) => {
 
     const classes = classNames(
         'bg-gray-200 focus:outline-none py-5 w-full pl-10 pr-7 rounded-large placeholder-gray-600',
@@ -15,7 +15,7 @@ const Textarea = ({className, placeholder, onChange, value, cols}) => {
             className={classes}
             onChange={onChange}
             value={value}
-            cols={cols}
+            rows={rows}
         />
     )
 }
@@ -25,14 +25,14 @@ Textarea.propTypes = {
     className: PropTypes.string,
     onChange: PropTypes.func.isRequired,
     value: PropTypes.string,
-    cols: PropTypes.number
+    rows: PropTypes.number
 }
 
 Textarea.defaultProps = {
     placeholder: 'default placeholder',
     className: null,
     value: '',
-    cols: 5
+    rows: 5
 }
 
 export default Textarea;

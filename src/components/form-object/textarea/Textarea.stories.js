@@ -3,7 +3,7 @@ import React from 'react';
 import Textarea from './Textarea';
 
 export default {
-    title: 'Inputs/Input',
+    title: 'Textarea/Textarea',
     component: Textarea,
     parameters: {
         componentSubtitle: 'Visual wrapper of an HTML textarea.',
@@ -19,7 +19,7 @@ export const Component = () => (
 export const types = () => (
     <React.Fragment>
         <div className="p-8">
-            <Textarea cols={5}> Input</Textarea>
+            <Textarea cols={5} />
         </div>
     </React.Fragment>
 );

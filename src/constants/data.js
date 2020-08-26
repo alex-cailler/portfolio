@@ -27,12 +27,12 @@ const technologies = [
     {
         urlImg: '',
         url: '',
-        title: 'google map API'
+        title: 'google map'
     },
     {
         urlImg: '',
         url: '',
-        title: 'google translate API'
+        title: 'google translate'
     },
     {
         urlImg: '',
@@ -75,5 +75,22 @@ const technologies = [
         title: 'docker'
     },
 ]
+const socialNetworks = [
+    {
+        link: "",
+        logoUrl: "/images/facebook.svg",
+        name: "facebook"
+    },
+    {
+        link: "",
+        logoUrl: "/images/instagram.svg",
+        name: "instagram"
+    },
+    {
+        link: "",
+        logoUrl: "/images/linkedin.svg",
+        name: "linkedin"
+    }
+]
 
-export { technologies }
+export { technologies, socialNetworks }
