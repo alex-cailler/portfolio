@@ -1,6 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
+    import React from 'react';
+    import PropTypes from 'prop-types';
+    import classNames from 'classnames';
 
 const types = ['email', 'password', 'text', 'number']
 
