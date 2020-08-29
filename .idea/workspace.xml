@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4029eb6c-7deb-4d59-9fa3-7b2114f628fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/section/Contact/RightSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/section/Home/IntroduceSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/section/Home/LetChatSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/section/Home/TechnologiesSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/section/Home/TestimonySection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/section/Home/WhoSection.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/forms/form-contact/FormContact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/forms/form-contact/FormContact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/layout-container/LayoutContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/layout-container/LayoutContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/section/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ContactPage/ContactPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ContactPage/ContactPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/layout-section/LayoutSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/layout-section/LayoutSection.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +22,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubProjectSettings">
-    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="section" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="alex-cailler" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="portfolio" />
   </component>
@@ -126,7 +116,7 @@
       <workItem from="1598118397592" duration="5783000" />
       <workItem from="1598186761076" duration="23394000" />
       <workItem from="1598437758707" duration="4052000" />
-      <workItem from="1598706745021" duration="6010000" />
+      <workItem from="1598706745021" duration="7582000" />
     </task>
     <task id="LOCAL-00001" summary="contact form advance">
       <created>1598467475331</created>
@@ -135,7 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598467475331</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Integration des sections">
+      <created>1598714947046</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598714947047</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Integration des sections">
+      <created>1598715031283</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598715031283</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +147,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="contact form advance" />
-    <option name="LAST_COMMIT_MESSAGE" value="contact form advance" />
+    <MESSAGE value="Integration des sections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integration des sections" />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="225" key="#ESLint" timestamp="1598042539318">
@@ -158,14 +163,14 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-774.-1440.3440.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1598174184285" />
-    <state x="451" y="75" key="CommitChangelistDialog2" timestamp="1598714946809">
+    <state x="451" y="75" key="CommitChangelistDialog2" timestamp="1598715031193">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="451" y="75" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1598714946809" />
-    <state x="637" y="428" key="Github.CreatePullRequestDialog" timestamp="1598714988719">
+    <state x="451" y="75" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1598715031193" />
+    <state x="637" y="428" key="Github.CreatePullRequestDialog" timestamp="1598734907929">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="637" y="428" key="Github.CreatePullRequestDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1598714988719" />
+    <state x="637" y="428" key="Github.CreatePullRequestDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1598734907929" />
     <state width="1771" height="299" key="GridCell.Tab.0.bottom" timestamp="1598383840843">
       <screen x="0" y="23" width="1792" height="1031" />
     </state>
@@ -202,10 +207,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1598467482769" />
-    <state x="529" y="217" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1598714587023">
+    <state x="529" y="217" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1598734901923">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="529" y="217" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1598714587023" />
+    <state x="529" y="217" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1598734901923" />
     <state x="678" y="479" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598269340357">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
