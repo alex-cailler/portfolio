@@ -1,0 +1,6 @@
+export { default as Technologies } from "./Home/TechnologiesSection"
+export { default as Testimony } from "./Home/TestimonySection"
+export { default as WhoIAm } from "./Home/WhoSection"
+export { default as ContactRightSection } from "./Contact/RightSection"
+export { default as ProfileIntroduceSection } from "./Home/IntroduceSection"
+export { default as LetChat } from "./Home/LetChatSection"
