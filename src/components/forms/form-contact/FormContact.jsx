@@ -10,7 +10,6 @@ const FormContact = ({}) => {
             <Input placeholder="email" className="mt-5"/>
             <Textarea placeholder="message" className="mt-5"/>
             <Button className="mt-5">Envoyer</Button>
-            <NavbarMain/>
         </form>
     )
 }

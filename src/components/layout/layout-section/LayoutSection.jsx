@@ -6,7 +6,7 @@ import Input, {types} from "../../form-object/input/Input";
 const LayoutSection = ({children, className}) => {
 
     const classes = classNames(
-        "mt-32 mb-32",
+        "my-32",
         className
     )
 
