@@ -10,7 +10,7 @@ const ContactPage = () => {
                 <div className="w-1/2">
                     <FormContact/>
                 </div>
-               <ContactRightSection />
+               <ContactRightSection className="w-1/2 ml-32"/>
             </div>
         </LayoutContainer>
     );

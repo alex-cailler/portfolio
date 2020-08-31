@@ -1,9 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 
-const menuItems = [{title: "Accueil", link: "/"}, {title: "Contact",link:"/contact"}, {title: "Travaux", link: "/work"}]
+const menuItems = [{title: "Accueil", link: "/"}, {title: "Contact",link:"/contact"}, {title: "Travaux", link: "/work/projects"}]
 
 const NavbarMain = () => {
     return (

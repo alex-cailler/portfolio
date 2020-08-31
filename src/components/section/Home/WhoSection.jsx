@@ -13,13 +13,13 @@ const WhoSection = () => (
                             bgColor="#E1F8EB"
                             title="Mes Travaux"
                             variant="dark"
-                            description="J’effectue de nombreux projet dans différent domaine si bien frontend que backend"
+                            description="J’effectue de nombreux projet dans différent domaine si bien frontend que backend."
                             btnTitle="Mes travaux" />
             <CardThematique className="md:w-2/4 w-full h-400 pl-10"
                             bgColor="#F8F5E1"
                             variant="dark"
                             title="Mes Travaux"
-                            description="J’effectue de nombreux projet dans différent domaine si bien frontend que backend"
+                            description="J’effectue de nombreux projet dans différent domaine si bien frontend que backend."
                             btnTitle="Mes travaux" />
         </div>
     </LayoutSection>

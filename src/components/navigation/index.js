@@ -1,1 +1,1 @@
-export { default as NavbarMain } from "./navbar-main/navbarMain"
+export { default as NavbarMain } from "./navbar-main/NavbarMain"

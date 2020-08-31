@@ -6,7 +6,7 @@ import {Button} from "../../button";
 const LetChatSection = () => {
     return (
         <LayoutSection>
-            <div className="bg-orange-200 flex rounded-large p-12 px-24">
+            <div className="bg-orange-200 flex rounded-large py-12 px-24">
                 <div className="w-1/2">
                     <HeaderSection title="En quête de travail" description="Donc n'hésiter pas à me contacter"/>
                 </div>

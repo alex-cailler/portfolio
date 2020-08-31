@@ -6,6 +6,7 @@ import {Carousel} from "../../carousel";
 import {technologies} from "../../../constants/data";
 import {CardTechnologie} from "../../card";
 import {LayoutSection} from "../../layout";
+import {TextInformation} from "../../content";
 
 const TechnologiesSection = ({className}) => {
 
@@ -15,15 +16,19 @@ const TechnologiesSection = ({className}) => {
 
     return (
         <LayoutSection>
-            <HeaderSection title={"Les technologie avec lequel je travail"} description="Pour être un bon developpeur, il faut avoir des compétence dans tout les domaine" className="w-1/3"/>
+            <HeaderSection title="Les technologies avec lesquelles je travaille" description="Pour être un bon développeur, il faut avoir des compétence dans tous les domaines." className="w-1/3"/>
             <Carousel className="mt-16">
-                {technologies.map( (item,index) => (
+                {technologies.map( (item) => (
                     <CardTechnologie
-                        key={index} title={item.title}
-                        className={classNames({'mr-20': index < technologies.length - 1})}
+                        key={item.title} title={item.title}
+                        className="mr-20"
                     />
                 ))}
             </Carousel>
+            <div className="flex mt-16">
+                <TextInformation label="24" describe="Technologies" />
+                <TextInformation className="ml-24" label="3" describe="Années d'expérience" />
+            </div>
         </LayoutSection>
     )
 }

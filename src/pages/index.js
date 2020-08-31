@@ -3,4 +3,7 @@ export { default as RoutePage } from './RoutePage/RoutePage';
 export { default as ProjectPage } from './ProjectPage/ProjectPage';
 export { default as GaleryPage } from './GaleryPage/GaleryPage';
 export { default as ContactPage } from './ContactPage/ContactPage';
-
+export { default as WorkPage } from './WorkPage/WorkPage'
+export { default as DesignPage } from './DesignPage/DesignPage'
+export { default as LabsPage } from './LabsPage/LabsPage'
+export { default as ProjectsPage } from './ProjectPage/ProjectsPage'

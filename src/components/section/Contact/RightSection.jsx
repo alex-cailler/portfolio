@@ -4,9 +4,15 @@ import {socialNetworks} from "../../../constants/data";
 import {TextInformation} from "../../content";
 import {CardSocialNetwork} from "../../card";
 
-const RightSection = () => {
+const RightSection = ({className}) => {
+
+    const classes = classNames(
+        "",
+        className
+    )
+
     return (
-        <div className="w-1/2 pl-32">
+        <div className={classes}>
             <h1 className="text-6xl leading-none">Contacter moi</h1>
             <div className="mt-16 mb-16">
                 <TextInformation label="email" describe="alex02.cailler@gmail.com"/>
