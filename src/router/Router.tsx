@@ -12,11 +12,11 @@ import {
 const Router = () => (
     <BrowserRouter>
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/contact" component={ContactPage} />
-        <Route exact path="/galery" component={GaleryPage} />
-        <Route exact path="/RoutePage" component={RoutePage} />
-        <Route exact path="/work" component={WorkPage} />
-        <Route exact path="/project/:id" component={ProjectPage} />
+        <Route path="/contact" component={ContactPage} />
+        <Route path="/galery" component={GaleryPage} />
+        <Route path="/RoutePage" component={RoutePage} />
+        <Route path="/work" component={WorkPage} />
+        <Route path="/project/:id" component={ProjectPage} />
     </BrowserRouter>
 );
 

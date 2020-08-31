@@ -1,18 +1,17 @@
 import React from 'react';
 import WorkRouter from "../../router/WorkRouter";
-import {Link} from "react-router-dom";
+import {Link, Switch} from "react-router-dom";
 
-const WorkPage = () => {
+const WorkPage = ({match}) => {
     return (
         <div>
-            Hola je suis la work
             <div>
-                <Link to="/work/picture">Galery</Link>
-                <Link to="/work/design">DesignPage</Link>
-                <Link to="/work/projects">ProjectsPage</Link>
-                <Link to="/work/labs">LabsPage</Link>
+                <Link to={`${match.url}/picture`}>Galery</Link>
+                <Link to={`${match.url}/design`}>DesignPage</Link>
+                <Link to={`${match.url}/projects`}>ProjectsPage</Link>
+                <Link to={`${match.url}/labs`}>LabsPage</Link>
             </div>
-
+            <WorkRouter />
         </div>
     );
 };
