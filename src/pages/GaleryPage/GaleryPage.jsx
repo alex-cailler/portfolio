@@ -1,16 +1,14 @@
 import React, {useState} from 'react';
 import {images} from "../../constants/data";
-import {ImagesGallerySection} from "../../components/section";
+import {ImagePreview, ImagesGallerySection} from "../../components/section";
 
 const GaleryPage = () => {
-    const [listDataFromChild, setListDataFromChild] = useState('none')
-    function test() {
-        console.log("hola je suis le plus beau du ")
-    }
+    const [imagePreview, setImagePreview] = useState(null)
     return (
         <React.StrictMode>
-            <h1 className="text-6xl leading-none font-semibold">Image - {listDataFromChild}</h1>
-           <ImagesGallerySection onClick={test} images={images}/>
+            <h1 className="text-6xl leading-none font-semibold">Image</h1>
+            <ImagesGallerySection images={images} onClickEvent={(imageFromChild) => { setImagePreview(imageFromChild); }} />
+            <ImagePreview image={imagePreview} closePreview={() => { setImagePreview(null) }} />
         </React.StrictMode>
     );
 };

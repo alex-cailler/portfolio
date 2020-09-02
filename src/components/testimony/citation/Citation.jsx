@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import editorQuote from '@iconify/icons-dashicons/editor-quote';
 
 const Citation = ({className, author, authorJob, citation}) => {
