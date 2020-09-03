@@ -238,5 +238,32 @@ const images = [
         logiciel: ['photoshop', 'lightroom']
     }
 ]
+const designs = [
+    {
+        title: 'marcapar',
+        link: '',
+        imageLink: '/design/marcapar.png'
+    },
+    {
+        title: 'todoworld',
+        link: '',
+        imageLink: '/design/todoworld.png'
+    },
+    {
+        title: 'dreamin',
+        link: '',
+        imageLink: '/design/dreamin.png'
+    },
+    {
+        title: 'portfolio',
+        link: '',
+        imageLink: '/design/portfolio.png'
+    },
+    {
+        title: 'novoferme',
+        link: '',
+        imageLink: '/design'
+    },
+]
 
-export { technologies, socialNetworks, images }
+export { technologies, socialNetworks, images, designs }
