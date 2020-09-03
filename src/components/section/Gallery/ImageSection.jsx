@@ -22,4 +22,9 @@ ImageSection.propTypes = {
     onClickEvent: PropTypes.func
 }
 
+ImageSection.defaultProps = {
+    images: [],
+    onClickEvent: () => {},
+};
+
 export default ImageSection

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import {NavbarMain, NavbarWork} from "../../navigation";
 
-const LayoutContainerWork = ({children, className, match}) => {
+const LayoutContainerWork = ({children, className}) => {
 
     const classes = classNames(
         "w-11/12 mr-auto flex",
