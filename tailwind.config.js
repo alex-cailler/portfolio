@@ -6,7 +6,9 @@ module.exports = {
     extend: {
       height: theme => ({
         '400': '400px',
-        '100P': '100vh'
+        '100P': '100vh',
+        '80P': '80vh',
+        '70P': '70vh'
       }),
     },
     borderRadius: {
